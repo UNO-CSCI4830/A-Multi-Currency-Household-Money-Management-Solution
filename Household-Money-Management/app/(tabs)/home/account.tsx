@@ -2,6 +2,7 @@ import { Alert, StyleSheet, Text, View, Button } from 'react-native';
 import { supabase } from '@/utils/supabase';
 import { useEffect, useState } from 'react';
 import { getData, getstoreddata, isUpdated } from '@/utils/data';
+import React from 'react';
 
 export default function SettingsPage() {
   const [user, setUser] = useState<any | null>(null)

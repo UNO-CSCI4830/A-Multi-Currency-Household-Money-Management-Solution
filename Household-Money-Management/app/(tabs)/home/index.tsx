@@ -1,5 +1,3 @@
-// screens/GraphScreen.tsx
-
 import { supabase } from '@/utils/supabase';
 import React from 'react';
 import { useEffect, useState } from 'react';
