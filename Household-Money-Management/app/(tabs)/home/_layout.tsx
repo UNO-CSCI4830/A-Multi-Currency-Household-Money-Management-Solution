@@ -13,6 +13,10 @@ export default function TabsLayout() {
                 options={{ tabBarLabel: 'Manage', title: 'Manage' }}
             />
             <Tabs.Screen
+                name='reports'
+                options={{ tabBarLabel: 'Reports', title: 'Reports' }}
+            />
+            <Tabs.Screen
                 name='account'
                 options={{ tabBarLabel: 'Settings', title: 'Settings' }}
             />
