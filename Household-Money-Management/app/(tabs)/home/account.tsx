@@ -42,7 +42,7 @@ export default function SettingsPage() {
     <>
       <View style={styles.container}>
         <Text style={{ fontSize: 20 }}>Index of Settings Tab</Text>
-        <Text>{String(userData['usd'])}</Text>
+        <Text> </Text>
         <Button title="logout" onPress={() => doLogout()}></Button>
       </View>
     </>
